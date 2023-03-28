@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label,h1,h3{
+            color: blue;
+        }
+
+        form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .bottoms{
+            width: fit-content;
+            position: relative;
+            left: 45%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Dentist Appointment Reservation Form</h1>
+    <form action="">
+        <h3>Mandatory fields</h3>
+        <label>
+            Full name*: <br>
+            <input type="text" placeholder="FirstName LastName">
+        </label>
+        <br>
+        <label>
+            Email address*: <br>
+            <input type="email" placeholder="John@email.com">
+        </label>
+        <br>
+        <label>
+            Select the needed service*: <br>
+            <select name="" id="">
+                <option value="Whitening">
+                    Whitening
+                </option>
+                <option value="surgey">
+                    Whitening
+                </option>
+            </select>
+        </label>
+        <br>
+        <label>Appointment date*: <br>
+            <input type="date">
+        </label>
+        <br>
+        <label>
+            Appointment Time*: <br>
+            <input type="time">
+        </label>
+        <br>
+        <label> Doctor's preferred gender*: <br>
+            <input type="radio" name="gender" value="male">
+            <label>Male</label>
+            <br>
+            <input type="radio" name="gender" value="female">
+            <label>Female</label>
+        </label>
+        <br>
+        <label>
+            Special Note <br>
+            <textarea name="" id="" cols="30" rows="10" class="textarea">Enter text here
+            </textarea>
+        </label>
+        <br>
+        <label>Terms and conditions* <br>
+            <input type="radio" name="agreement" value="yes">
+            <label>I agree</label>
+            <input type="radio" name="agreement" value="no">   
+            <label>I disagree</label>        
+        </label>
+        <br>
+        <input type="submit" value="Complete reservation" class="bottoms">
+
+    </form>
+</body>
+</html>
