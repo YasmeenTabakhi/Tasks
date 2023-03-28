@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Delicious Handrawn' ;
+}
+h2{
+    background-color: bisque;
+    font-family: serif;
+    color: brown;
+}
+.tnumber {
+    color: brown;
+    text-decoration: underline;
+}
+.specefic-value{
+    color: green;
+}
+span{
+    color: red;
+    font-family: 'Delicious Handrawn' ;
+}
+.specefic-span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dogImage{
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+.button {
+    border-radius: 5px;
+}
