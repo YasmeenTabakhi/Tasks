@@ -1,0 +1,19 @@
+body{
+    background-color: #ffffce;
+}
+div {
+    background-color: white;
+    border: solid 3px black;
+    margin: 15px;
+    padding: 5px;
+}
+.article ,.article p {
+    color: red;
+    border: dotted 3px red;
+}
+.span1 {
+    background-color: #fdca96;
+}
+.span2 {
+    background-color: #fdfd96;
+}
