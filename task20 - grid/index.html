@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            height: 95vh;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(5,1fr);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            gap: 5px;
+        }
+        .one,.two,.three,.four,.five{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .one{
+            grid-column: 1/5;
+            grid-row: 1/3;
+            background-color: #ff9b6d ;
+        }
+        .two {
+            grid-column: 1/3;
+            grid-row: 3/5;
+            background-color: #ffd37c;
+        }
+        .three{
+            grid-column: 3/5;
+            grid-row: 3/5;
+            background-color: #c8d878;
+        }
+        .four{
+            grid-row: 1/5;
+            grid-column: 5/7;
+            background-color: #7dbca9;
+        }
+        .five{
+            grid-column: 1/7;
+            grid-row: 5/6;
+            background-color: #87ceeb;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">One</div>
+    <div class="two">Two</div>
+    <div class="three">Three</div>
+    <div class="four">Four</div>
+    <div class="five">Five</div>
+</body>
+</html>
